@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 # Lab 1: Core Concepts in C\
+Author: Haroms Terfassa\
+\
+## Program Description\
+This program is a simple command-line interface (CLI) that simulates an "in-memory database." The user can interact with a menu to add, delete, and print records. The database name is passed as a command-line argument.\
+\
+## Menu Structure\
+The program will display the following menu:\
+1. Print all records\
+2. Add a record\
+3. Delete the last record\
+4. Print the number of records\
+5. Print database size\
+6. Print number of changes\
+7. Exit\
+\
+## Functions\
+### 1. `void printRecords()`\
+- **Input:** None\
+- **Output:** Prints "You have entered the Print all records function"\
+\
+### 2. `void addRecord()`\
+- **Input:** User enters data (Part number, name, size, metric, cost)\
+- **Output:** Prints the entered data and increments record count\
+\
+### 3. `void deleteRecord()`\
+- **Input:** None\
+- **Output:** Prints "You have entered the delete last record function"\
+\
+### 4. `void printNumRecords()`\
+- **Input:** None\
+- **Output:** Prints "You have entered the Print number of records function"\
+\
+### 5. `void printDatabaseSize()`\
+- **Input:** None\
+- **Output:** Prints "You have entered the Print database size function"\
+\
+### 6. `void printNumChanges(bool print)`\
+- **Input:** `bool print` (true to print count, false to increment)\
+- **Output:** If `print` is true, prints "Database modified X times"; otherwise, increments modification count.\
+\
+## Files Used:\
+- `lab1.c` \uc0\u8594  Main C program\
+- `README.txt` \uc0\u8594  Design document\
+}
