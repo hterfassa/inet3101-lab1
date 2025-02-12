@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
                 printf("bye.\n");
                 return 0;
             default: 
-                printf("??? invalid choice ???\n");
+                printf("invalid choice\n");
         }
     }
 
