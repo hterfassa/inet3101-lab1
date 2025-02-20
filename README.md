@@ -7,9 +7,6 @@ This is a simple C program that acts like a basic database. It lets users add, d
 Menu Options
 The program shows this menu:
 
-markdown
-Copy
-Edit
 1. Print all records  
 2. Add a record  
 3. Delete the last record  
